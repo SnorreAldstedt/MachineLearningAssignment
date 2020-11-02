@@ -8,8 +8,8 @@ del titanic["Name"]
 
 
 def replace_gender(dataframe, rep_male="male", rep_female="female"):
-    dataframe = dataframe.replace(to_replace=rep_male, value=1)
-    dataframe = dataframe.replace(to_replace=rep_female, value=0)
+    dataframe = dataframe.replace(to_replace=rep_male, value=0)
+    dataframe = dataframe.replace(to_replace=rep_female, value=1)
     return dataframe
 
 
